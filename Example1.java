@@ -14,9 +14,14 @@ class OOPS{
     public static void main(String args[])
     {
          Student s1 = new Student();
+         Student s2 = new Student();
+        
          s1.name = "goalline_byte";
          s1.age = 21;
+         s2.name = "Aradhna";
+         s2.age = 21;
          s1.getinfo();
+         s2.getinfo();
 
     }
 }
